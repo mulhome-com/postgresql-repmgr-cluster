@@ -8,7 +8,7 @@ repmgr (Replication Manager) is an open source tool used for managing the replic
 
 Primary server:
 
-> bash repmgr.sh -i 10.11.12.0 -m 24 -t master -s 10.11.12.200 -M 10.11.12.200 -v 12
+> bash build.sh -i 10.11.12.0 -m 24 -t master -s 10.11.12.200 -M 10.11.12.200 -v 12
 
 Run the above command in one host.
 
@@ -22,7 +22,7 @@ Run the above command in one host.
 
 Standby server:
 
-> bash repmgr.sh -i 10.11.12.0 -m 24 -t slave -s 10.11.12.201 -M 10.11.12.200 -v 12
+> bash build.sh -i 10.11.12.0 -m 24 -t slave -s 10.11.12.201 -M 10.11.12.200 -v 12
 
 Run the above command in one host.
 
